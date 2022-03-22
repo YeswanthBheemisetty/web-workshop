@@ -1,0 +1,34 @@
+body{
+	background-image: url("https://www.teahub.io/photos/full/93-938757_75-web-website-background-color.jpg");
+}
+.title >h1{
+	
+    padding-left:40rem;
+	font-size:40px;
+   
+    
+}
+.ipl{
+	text-align:center;
+    padding-left:15rem;
+	font-weight:bold;
+}
+.image1{
+    position: absolute;
+    display: inline-block;
+    margin-right: 0px; 
+    padding-right: 500px;;
+    
+    
+}
+.image2{
+    display:inline-block;
+    margin-left: 1000px;
+    
+}
+.image3{
+    display:inline-block;
+    position:relative;
+    margin-left: 520px;
+    margin-bottom: 50px;
+}
