@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+}
+ul{
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(43, 41, 41);
+}
+.buy{
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.buy img{
+    width: 150px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    display:  block;
+    color: white;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    font-family: 'Sacramento', serif;
+    font-size: 30px;
+}
+li a:hover{
+    background-color: #111;
+}
+.page1{
+    background-color: grey;
+}
+.page1 p{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    text-align: center;
+}
+.page1 h1{
+    font-family: 'Sacramento', serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 2px;
+}
+.img img{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px;
+}
+@media screen and (max-width:500px){
+    li a{
+        display:  inline-block;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-family: 'Sacramento', serif;
+        font-size: 30px;
+    }
+    .page1 h1{
+        font-family: 'Sacramento', serif;
+        font-size: 60px;
+        text-align: center;
+        padding-top: 2px;
+    }
+    .img img{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 50px;
+    }
+}
+.page2{
+    background-color: rgb(26, 24, 24);
+}
+.page2 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 90px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: rgb(99, 99, 99);
+}
+.page2 li{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    color: white;
+    word-spacing: 10px;
+    padding-left: 50px;
+}
+.page2 h3{
+    font-family: 'Sacramento', serif ;
+    font-size: 50px;
+    color: rgb(255, 238, 0);
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+.page2 img{
+    width: 50px;
+    padding: 10px;
+}
+.page3{
+    background-color: #414141b0;
+}
+.page3 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 70px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: rgb(0, 0, 0);
+}
+.page3 h3{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: rgb(53, 53, 53);
+    padding-left: 80px;
+}
+.page3 img{
+    width: 80px;
+    padding: 20px;
+}
+.page4{
+    background-color: rgb(26, 24, 24);
+}
+.page4 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 70px;
+    color: rgb(80, 80, 80);
+}
+.page4 img{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 9px  solid rgb(80, 80, 80);
+}
+.page4 h3{
+    font-family: 'Merriweather', serif;
+    font-size: 29px;
+    color: rgb(117, 117, 117);
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.page4 h4,p{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.page5{
+    background-color: #414141b0;
+}
+.page5 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: black;
+}
+.page5 h3{
+    font-family: 'Merriweather', serif;
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    word-spacing: 10px;
+    padding-left: 80px;
+}
+.page5 h4{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+.page5 a{
+    font-size: 20px;
+    padding-left: 80px;
+}
+.page5 h5{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    word-spacing: 10px;
+    padding-left: 70px;
+}
+.page6{
+    background-color: rgb(26, 24, 24);
+}
+.page6 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: rgb(100, 100, 100);
+}
+.page6 li{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    color: white;
+    word-spacing: 10px;
+    padding-left: 50px;
+}
+.page7{
+    background-color: #414141b0;
+}
+.page7 h2{
+    font-family: 'Sacramento', serif;
+    font-size: 90px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 80px;
+    color: rgb(0, 0, 0);
+}
+.page7 p{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    text-align: center;
+}
+.page7 h3{
+    font-family: 'Sacramento', serif;
+    font-size: 45px;
+    text-align: left;
+    padding-left: 50px;
+}
+.page7 img{
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flexbox;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+.footer p{
+      font-size: 15px;
+}
